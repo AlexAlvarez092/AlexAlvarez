@@ -131,6 +131,7 @@ export default {
 }
 .btn {
   background-color: var(--crayolas-outer-space);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   font-weight: bold;
   margin: 0 8px 36px 0px;
@@ -145,7 +146,7 @@ export default {
     color: var(--snow);
   }
   &:hover {
-    background-color: var(--green-sheen);
+    background-color: var(--snow);
     a {
       color: var(--crayolas-outer-space);
     }

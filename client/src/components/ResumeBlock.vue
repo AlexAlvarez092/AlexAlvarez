@@ -67,8 +67,8 @@ export default {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
-    border: 4px solid var(--green-sheen);
+    right: -19px;
+    border: 6px solid var(--neon-orange);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -86,9 +86,9 @@ export default {
       width: 0;
       z-index: 1;
       right: 30px;
-      border: medium solid var(--green-sheen);
+      border: medium solid var(--snow);
       border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent var(--green-sheen);
+      border-color: transparent transparent transparent var(--snow);  ;
     }
   }
   /* Place the container to the right */
@@ -104,13 +104,13 @@ export default {
       width: 0;
       z-index: 1;
       left: 30px;
-      border: medium solid var(--green-sheen);
+      border: medium solid var(--snow);
       border-width: 10px 10px 10px 0;
-      border-color: transparent var(--green-sheen) transparent transparent;
+      border-color: transparent var(--snow) transparent transparent;
     }
     /* Fix the circle for containers on the right side */
     &::after {
-      left: -16px;
+      left: -19px;
     }
   }
   /* The actual content */
@@ -119,7 +119,7 @@ export default {
     background-color: var(--snow);
     position: relative;
     border-radius: 6px;
-    border: 4px solid var(--green-sheen);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     h3 {
       padding: 6px;
       margin: 0;
@@ -155,7 +155,7 @@ export default {
         left: 60px;
         border: medium solid var(--snow);
         border-width: 10px 10px 10px 0;
-        border-color: transparent var(--green-sheen) transparent transparent;
+        border-color: transparent var(--snow) transparent transparent;
       }
       /* Make sure all circles are at the same spot */
       &::after {

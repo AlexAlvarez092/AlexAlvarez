@@ -33,6 +33,7 @@ footer {
   .btn {
   text-decoration: none;
   background-color: var(--crayolas-outer-space);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   color: var(--snow);
   border-radius: 4px;
   font-weight: bold;
@@ -43,7 +44,7 @@ footer {
   line-height: 24px;
   font-weight: 50;
   &:hover {
-    background-color: var(--green-sheen);
+    background-color: var(--snow);
     color: var(--crayolas-outer-space);
   }
   span {

@@ -1,7 +1,6 @@
 <template>
 <div class="app">
   <router-view/>
-  <!-- <div id="large-header" class="large-header"></div> -->
 </div>
 </template>
 
@@ -9,10 +8,10 @@
 :root {
     --crayolas-outer-space: #293E40;
     --paradiso: #4F787C;
-    --green-sheen: #80B6A1;
-    --pattens-blue: #D8E4E8;
+    --pattens-blue: #c3ced2;
     --onahau: #C7D9DE;
     --snow: #FBFBFB;
+    --neon-orange: #f97721;
 }
 * {
   box-sizing: border-box;
