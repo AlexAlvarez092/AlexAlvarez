@@ -15,6 +15,12 @@ sudo apt install npm
 npm install -g pm2
 ```
 
+- Install `git`
+
+```bash
+sudo apt install git
+```
+
 - Create `deploy.sh`
 
 ```bash
