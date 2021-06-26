@@ -1,12 +1,23 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "description": "alexalvarez.es website - client",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "author": "Alex Alvarez",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexAlvarez092/alexalvarez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexAlvarez092/alexalvarez/issues"
+  },
+  "homepage": "https://github.com/AlexAlvarez092/alexalvarez#readme",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",

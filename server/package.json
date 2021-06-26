@@ -1,11 +1,39 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "alexalvarez.es website - server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Alex Alvarez",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexAlvarez092/alexalvarez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexAlvarez092/alexalvarez/issues"
+  },
+  "homepage": "https://github.com/AlexAlvarez092/alexalvarez#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^4.6.0",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.7"
+  }
 }
