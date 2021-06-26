@@ -1,7 +1,7 @@
 <template>
 <div class="app">
   <router-view/>
-  <div id="large-header" class="large-header"></div>
+  <!-- <div id="large-header" class="large-header"></div> -->
 </div>
 </template>
 
