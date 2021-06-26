@@ -7,8 +7,8 @@ rm -rf alexalvarez
 
 git clone https://github.com/AlexAlvarez092/alexalvarez.git
 
-mkdir alexalvarez/app/ssl
-cp keys/* alexalvarez/app/ssl/
+mkdir alexalvarez/server/ssl
+cp keys/* alexalvarez/server/ssl/
 
-(cd alexalvarez/app && npm install)
-(cd alexalvarez/app && npm run start)
+(cd alexalvarez/server && npm install)
+(cd alexalvarez/server && npm run start)
