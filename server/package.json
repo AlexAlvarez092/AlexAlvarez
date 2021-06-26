@@ -4,7 +4,8 @@
   "description": "alexalvarez.es website - server",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "pm2 start index.js"
   },
   "author": "Alex Alvarez",
   "license": "UNLICENSED",
@@ -28,7 +29,8 @@
     "mongodb": "^3.6.8",
     "mongoose": "^5.12.14",
     "morgan": "^1.10.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pm2": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "^7.29.0",
