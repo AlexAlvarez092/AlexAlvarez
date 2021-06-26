@@ -77,3 +77,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# OSX File
+.DS_Store
