@@ -159,7 +159,7 @@ export default {
       }
       /* Make sure all circles are at the same spot */
       &::after {
-        left: 16px;
+        left: 14px;
       }
       /* Make all right containers behave like the left ones */
       &:nth-child(odd) {
