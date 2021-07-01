@@ -80,3 +80,6 @@ typings/
 
 # OSX File
 .DS_Store
+
+# Bundled files
+public/
